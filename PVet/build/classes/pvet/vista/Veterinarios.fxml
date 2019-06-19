@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="799.0" prefWidth="1222.0" style="-fx-background-color: F7EE6E;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pvet.controlador.VeterinariosController">
+   <children>
+      <ToolBar prefHeight="57.0" prefWidth="1222.0" style="-fx-background-color: #616161;">
+         <items>
+            <JFXButton onAction="#Ini" prefHeight="42.0" prefWidth="188.0" style="-fx-background-color: FF5722;" text="Inicio" textFill="#fff7f7">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton onAction="#Mas" prefHeight="42.0" prefWidth="196.0" style="-fx-background-color: rgb(40, 116, 166);" text="Mascotas" textFill="#fff9f9">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton onAction="#Vet" prefHeight="42.0" prefWidth="193.0" style="-fx-background-color: rgb(40, 116, 166);" text="Veterinarios" textFill="#fcf8f8">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton onAction="#Cit" prefHeight="42.0" prefWidth="199.0" style="-fx-background-color: rgb(40, 116, 166);" text="Citas" textFill="#fcfafa">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton onAction="#Art" prefHeight="42.0" prefWidth="200.0" style="-fx-background-color: rgb(40, 116, 166);" text="Artículos" textFill="#fffafa">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton onAction="#Ven" prefHeight="42.0" prefWidth="201.0" style="-fx-background-color: rgb(40, 116, 166);" text="Ventas" textFill="#fcf8f8">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+         </items>
+      </ToolBar>
+      <TableView fx:id="veterinariotabla" layoutX="382.0" layoutY="67.0" prefHeight="725.0" prefWidth="826.0">
+        <columns>
+          <TableColumn fx:id="cempleado" prefWidth="118.0" text="Nombre" />
+          <TableColumn fx:id="ccontrasenia" prefWidth="105.0" text="Contraseña" />
+            <TableColumn fx:id="ctelefono" prefWidth="99.0" text="Telefono" />
+            <TableColumn fx:id="cdireccione" prefWidth="170.0" text="Dirección" />
+            <TableColumn fx:id="cse" prefWidth="114.0" text="Sexo" />
+            <TableColumn fx:id="csueldo" prefWidth="91.0" text="Sueldo" />
+            <TableColumn fx:id="ccargo" prefWidth="127.0" text="Cargo" />
+            <TableColumn fx:id="cidv" prefWidth="127.0" text="ID" />
+        </columns>
+      </TableView>
+      <JFXTextField fx:id="txtid" labelFloat="true" layoutX="40.0" layoutY="50" prefHeight="31.0" prefWidth="312.0" promptText="id" />
+      <JFXTextField fx:id="txtn" labelFloat="true" layoutX="40.0" layoutY="99.0" prefHeight="31.0" prefWidth="312.0" promptText="Nombre" />
+      <JFXTextField fx:id="txtcargo" labelFloat="true" layoutX="40.0" layoutY="458.0" prefHeight="31.0" prefWidth="312.0" promptText="Cargo" />
+      <JFXTextField fx:id="txtc" labelFloat="true" layoutX="41.0" layoutY="159.0" prefHeight="31.0" prefWidth="312.0" promptText="Contraseña" />
+      <JFXTextField fx:id="txttel" labelFloat="true" layoutX="41.0" layoutY="220.0" prefHeight="31.0" prefWidth="312.0" promptText="Telefono" />
+      <JFXTextField fx:id="txtdir" labelFloat="true" layoutX="41.0" layoutY="284.0" prefHeight="31.0" prefWidth="312.0" promptText="Dirección" />
+      <JFXTextField fx:id="txtsuel" labelFloat="true" layoutX="40.0" layoutY="400.0" prefHeight="31.0" prefWidth="312.0" promptText="Sueldo" />
+      <JFXTextField fx:id="txtse" labelFloat="true" layoutX="40.0" layoutY="345.0" prefHeight="31.0" prefWidth="312.0" promptText="Sexo" />
+      <JFXButton fx:id="btnagregar" layoutX="57.0" layoutY="500.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="279.0" onAction="#guardar" style="-fx-background-color: FF5722;" text="Agregar" textFill="#fcf7f7">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btneliminar" disable="true" layoutX="57.0" layoutY="600.0" onAction="#eliminar" mnemonicParsing="false" prefHeight="42.0" prefWidth="279.0"  style="-fx-background-color: FF5722;" text="Eliminar" textFill="#fffefe">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btneditar" disable="true" layoutX="57.0" layoutY="550.0" onAction="#editar" mnemonicParsing="false" prefHeight="42.0" prefWidth="279.0" style="-fx-background-color: FF5722;" text="Editar" textFill="#fff9f9">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnlimpiar" layoutX="57.0" layoutY="650.0" onAction="#limpiarComponentes" prefHeight="42.0" prefWidth="279.0" style="-fx-background-color: FF5722;" text="Limpiar" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

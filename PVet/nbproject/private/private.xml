@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/PVet/src/pvet/modelo/Venta.java</file>
+            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/PVet/src/pvet/controlador/VeterinariosController.java</file>
+            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/PVet/src/pvet/vista/Veterinarios.fxml</file>
+            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/PVet/src/pvet/controlador/CitasController.java</file>
+            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/PVet/src/pvet/modelo/Conexion.java</file>
+            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/PVet/src/pvet/vista/Login.fxml</file>
+            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/PVet/src/pvet/modelo/Empleado.java</file>
+            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/PVet/src/pvet/PVet.java</file>
+            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/PVet/src/pvet/modelo/Mascota.java</file>
+            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/PVet/src/pvet/controlador/LoginController.java</file>
+            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/PVet/src/pvet/controlador/VentasController.java</file>
+            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/PVet/src/pvet/vista/Ventanas.java</file>
+            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/PVet/src/pvet/vista/Ventas.fxml</file>
+            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/PVet/src/pvet/controlador/ArticulosController.java</file>
+            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/PVet/src/pvet/vista/MenuMascotas.fxml</file>
+            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/PVet/src/pvet/controlador/MenuMascotasController.java</file>
+            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/PVet/src/pvet/vista/MenuInicio.fxml</file>
+            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/PVet/src/pvet/controlador/MenuInicioController.java</file>
+            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/PVet/src/pvet/vista/Citas.fxml</file>
+            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/PVet/src/pvet/modelo/Cita.java</file>
+            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/PVet/src/pvet/vista/Articulos.fxml</file>
+            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/PVet/src/pvet/modelo/Articulo.java</file>
+        </group>
+    </open-files>
+</project-private>

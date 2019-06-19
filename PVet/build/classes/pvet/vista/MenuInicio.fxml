@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1226.0" style="-fx-background-color: #F7EE6E;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pvet.controlador.MenuInicioController">
+   <children>
+      <ToolBar prefHeight="57.0" prefWidth="1222.0" style="-fx-background-color: #616161;">
+         <items>
+            <JFXButton onAction="#Ini" prefHeight="39.0" prefWidth="210.0" style="-fx-background-color: FF5722;" text="Inicio" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton onAction="#Mas" prefHeight="31.0" prefWidth="191.0" style="-fx-background-color: rgb(40, 116, 166);" text="Mascotas" textFill="#ebe8e8">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton onAction="#Vet" prefHeight="31.0" prefWidth="191.0" style="-fx-background-color: rgb(40, 116, 166);" text=" Veterinarios" textFill="#fcf2f2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton onAction="#Cit" prefHeight="31.0" prefWidth="191.0" style="-fx-background-color: rgb(40, 116, 166);" text="Citas" textFill="#f8f3f3">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton onAction="#Art" prefHeight="31.0" prefWidth="191.0" style="-fx-background-color: rgb(40, 116, 166);" text="Artículos" textFill="#fff9f9">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton onAction="#Ven" prefHeight="31.0" prefWidth="191.0" style="-fx-background-color: rgb(40, 116, 166);" text="Ventas" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+         </items>
+      </ToolBar>
+      <Label layoutX="455.0" layoutY="91.0" prefHeight="93.0" prefWidth="316.0" text="Bienvenido">
+         <font>
+            <Font size="64.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="511.0" fitWidth="853.0" layoutX="257.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../mas.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
